@@ -1,4 +1,3 @@
-module.exports.something = function(args, done) {
-  console.log('SOMETHING with', args);
-  done();
+module.exports.ns = function(command, args, ns, done) {
+  done(args[0]);
 };
