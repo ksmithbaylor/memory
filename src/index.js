@@ -12,13 +12,13 @@ prompt.delimiter = '';
 
 function repl() {
   prompt.get([promptStandard], (err, result) => {
-    handle(result.command);
-    repl();
+    handle(result.command, repl);
   });
 }
 
-function handle(command) {
+function handle(command, done) {
   console.log(command);
+  done();
 }
 
 repl();
