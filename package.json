@@ -1,0 +1,21 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "personal searchable key-value store",
+  "main": "src/index.js",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "inquirer": "^0.11.0",
+    "prompt": "^0.2.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/ksmithbaylor/memory"
+  },
+  "author": "Kevin Smith",
+  "license": "MIT"
+}
